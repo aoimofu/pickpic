@@ -1,9 +1,22 @@
 # pickpic
 Get images from Twitter account.
 
+## Building the command.
+```
+# Install the goquery.
+go get github.com/PuerkitoBio/goquery
+
+# git clone Pickpic
+git clone git@github.com:aoimofu/pickpic.git
+
+# Building the command.
+cd pickpic/
+go build
+```
+
 ## Usage
 ```
-pickpic -i < a Twitter ID >
+pickpic -i <a Twitter ID>
 ```
 
 ## example
