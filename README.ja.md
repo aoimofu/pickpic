@@ -1,6 +1,19 @@
 # pickpicコマンド
 Twitter IDを引数に渡すと、最新の投稿から画像のURLをスクレイピングするコマンドです。
 
+## ビルド ( CentOS7 )
+```
+# goqueryのインストール
+go get github.com/PuerkitoBio/goquery
+
+# 本体をclone
+git clone git@github.com:aoimofu/pickpic.git
+
+# ビルド実行
+cd pickpic/
+go build
+```
+
 ## 使い方
 ```
 pickpic -i <TwitterID>
